@@ -42,13 +42,13 @@ ax1.set_title("Comparative - FMNIST")
 ax1.set_xlabel("Communication Rounds")
 ax1.set_ylabel("Accuracy (%)")
 ax1.legend(["Target Accuracy",
-"FedAvg",
+"FedAvg [10]",
 "FedAvgLoss",
-"FedACS",
-"FedOpt",
-"FedYogi",
-"FedTrim",
-"FedMed",
+"FedACS [18]",
+"FedOpt [110]",
+"FedYogi [111]",
+"FedTrim [116]",
+"FedMed [116]",
 "TSFed",],loc='upper left',fontsize="8")
 
 ax2.grid(True,linestyle="dotted", color='grey')
